@@ -20,3 +20,12 @@ print(DevOps)
 numberings = [8, 2, 6, 9]
 numberings.sort()
 print(numberings)
+
+# Nested lists
+matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+
+print(matrix)
