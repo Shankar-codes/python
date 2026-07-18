@@ -1,4 +1,22 @@
 DevOps = ["Linux", "Shell", "Ansible", "Terraform", "Docker", "Kubernetes", "Python"]
+numbers = [1, 2, 3, 4]
 
 # Functions
-print(len(DevOps))
+print(len(DevOps)) # length of the list
+print(sorted(DevOps)) # list sorting ascending order
+print(sum(numbers)) # sum of the list numbers
+
+# Methods
+print(DevOps.index("Terraform"))
+
+# count = Shankar two times are there
+names = ["Shankar", "Shankar", "Ellamma", "Thimmappa"]
+print(names.count("Shankar"))
+
+# printing the lists reverse
+DevOps.reverse()
+print(DevOps)
+
+numberings = [8, 2, 6, 9]
+numberings.sort()
+print(numberings)
