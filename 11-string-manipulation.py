@@ -22,3 +22,7 @@ print(second_name.lower()) # lowercase
 # replace the word
 replace=message.replace("Hello", "Greetings")
 print(replace.strip())
+
+# accessing the string characters
+course = "python"
+print(course[0], course[1], course[2])
