@@ -26,3 +26,9 @@ print(replace.strip())
 # accessing the string characters
 course = "python"
 print(course[0], course[1], course[2])
+
+# string slicing
+new_course = "DevOps Engineer"
+print(new_course[0:6])
+print(new_course[0:])
+print(new_course[:4])
