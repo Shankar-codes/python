@@ -14,3 +14,7 @@ print(DevOps[1:4])
 # Tuple concetation:
 merged_tuples=DevOps + numbers
 print(merged_tuples)
+
+# Tuple repetetions
+repeated_tuple=(numbers) * 3
+print(repeated_tuple)
