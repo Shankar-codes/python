@@ -21,5 +21,5 @@ print(DevOpswithEllamma["Course"])
 DevOpswithEllamma.pop("Mode")
 print(DevOpswithEllamma)
 
-DevOpswithEllamma.pop()
+del DevOpswithEllamma["Course"]
 print(DevOpswithEllamma)
