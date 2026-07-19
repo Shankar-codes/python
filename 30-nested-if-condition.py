@@ -1,5 +1,5 @@
 day = "saturday"
-is_raining = True
+is_raining = False
 
 if day == "saturday" or day == "sunday":
     if not is_raining:
