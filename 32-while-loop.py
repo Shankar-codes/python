@@ -26,6 +26,6 @@ while sheep_count<=10:
     print(f"Sheep {sheep_count}")
     if sheep_count==5:
         sheep_count+=1
+        print("That's not counting")
         continue
-    print("That's enough counting")
     sheep_count +=1
