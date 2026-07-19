@@ -12,3 +12,5 @@ print(f"Course : {DevOpswithEllamma["Course"]}")
 print(f"Trainer : {DevOpswithEllamma["Trainer"]}")
 print(f"Duration : {DevOpswithEllamma["Duration"]}")
 print(f"Training Mode : {DevOpswithEllamma["Mode"]}")
+
+# adding and updating the dictionary elements
