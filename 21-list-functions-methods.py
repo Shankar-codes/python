@@ -32,3 +32,5 @@ print(matrix)
 
 # accesing the nested lists
 print(matrix[0][0])
+
+print(matrix[2][1])
