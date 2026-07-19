@@ -29,3 +29,6 @@ matrix = [
 ]
 
 print(matrix)
+
+# accesing the nested lists
+print(matrix[0][0])
