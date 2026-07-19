@@ -10,4 +10,4 @@ while snack_available > 0 and money > 0:
         print("Snack purchased!")
     else:
         print("No purchase made.")
-print("Either snacks are sold out or out of money")
+print("Either snacks are sold out 'OR' out of money")
