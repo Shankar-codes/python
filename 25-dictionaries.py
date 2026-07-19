@@ -16,3 +16,10 @@ print(f"Training Mode : {DevOpswithEllamma["Mode"]}")
 # adding and updating the dictionary elements
 DevOpswithEllamma["Course"]="DevSecOps"
 print(DevOpswithEllamma["Course"])
+
+# deleting the dictionary elements
+DevOpswithEllamma.pop("Mode")
+print(DevOpswithEllamma)
+
+DevOpswithEllamma.pop()
+print(DevOpswithEllamma)
