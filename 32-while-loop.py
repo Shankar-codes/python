@@ -18,3 +18,14 @@ while sheep_count<=10:
         print("That's enough counting")
         break
     sheep_count +=1
+    
+print("-------continue example---------")
+# contine statement
+sheep_count = 1
+while sheep_count<=10:
+    print(f"Sheep {sheep_count}")
+    if sheep_count==5:
+        sheep_count+=1
+        continue
+    print("That's enough counting")
+    sheep_count +=1
