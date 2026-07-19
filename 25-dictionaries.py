@@ -14,3 +14,5 @@ print(f"Duration : {DevOpswithEllamma["Duration"]}")
 print(f"Training Mode : {DevOpswithEllamma["Mode"]}")
 
 # adding and updating the dictionary elements
+DevOpswithEllamma["Course"]="DevSecOps"
+print(DevOpswithEllamma["Course"])
