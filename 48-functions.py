@@ -24,3 +24,10 @@ def greet_student(name="student"):
     
 greet_student()
 greet_student("Ellamma")
+
+
+# keyword arguments
+def student_details(name, age, subject):
+    print(f"Name: {name}\n Age: {age}\n Subject: {subject}")
+
+student_details("Shankar", 25, "DevOps")
