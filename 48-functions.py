@@ -47,4 +47,4 @@ def student_info(**details):
     for key, value in details.items():
         print(f"{key}: {value}")
 
-student_info
+print(student_info(name="Suresh", age=22, course="DevOps"))
