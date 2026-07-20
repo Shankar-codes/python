@@ -9,6 +9,8 @@ print(DevOps[6])
 DevOps.append("Jenkins")
 print(DevOps)
 
+# extend the elements
+DevOps.extend(["GitHub Actions", "Promethesys"])
 # Adding the elements in the specific index using insert
 DevOps.insert(0, "ArgoCD")
 print(DevOps)
@@ -23,3 +25,7 @@ print(DevOps)
 
 DevOps.pop(0)
 print(DevOps)
+
+DevOps_1=DevOps.copy()
+DevOps_1.remove("Jenkins")
+print(f"printing the shallow copy {DevOps_1}.")
