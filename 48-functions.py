@@ -28,6 +28,6 @@ greet_student("Ellamma")
 
 # keyword arguments
 def student_details(name, age, subject):
-    print(f"Name: {name}\n Age: {age}\n Subject: {subject}")
+    print(f"Name: {name}\nAge: {age}\nSubject: {subject}")
 
 student_details("Shankar", 25, "DevOps")
