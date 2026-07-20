@@ -17,3 +17,5 @@ def add_numbers(a,b):
 
 result=add_numbers(10, 20)
 print(f"The sum is : {result}")
+
+# default parameters
