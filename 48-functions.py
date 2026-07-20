@@ -33,7 +33,7 @@ def student_details(name, age, subject):
 student_details("Shankar", 25, "DevOps")
 
 
-# *args and **kwargs examples
+# *args examples
 def total_sum(*numbers):
     result = 0
     for num in numbers:
@@ -41,3 +41,10 @@ def total_sum(*numbers):
     return result
 
 print(total_sum(5,6,5,6,5,6))
+
+# **kwargs examples
+def student_info(**details):
+    for key, value in details.items():
+        print(f"{key}: {value}")
+
+student_info
