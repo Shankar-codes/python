@@ -19,3 +19,8 @@ result=add_numbers(10, 20)
 print(f"The sum is : {result}")
 
 # default parameters
+def greet_student(name="student"):
+    print(f"Hello {name}! Welcome to the DevOps course")
+    
+greet_student()
+greet_student("Ellamma")
