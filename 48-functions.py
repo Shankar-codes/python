@@ -31,3 +31,13 @@ def student_details(name, age, subject):
     print(f"Name: {name}\nAge: {age}\nSubject: {subject}")
 
 student_details("Shankar", 25, "DevOps")
+
+
+# *args and **kwargs examples
+def total_sum(*numbers):
+    result = 0
+    for num in numbers:
+        result+=num
+    return result
+
+print(total_sum(5,6,5,6,5,6))
